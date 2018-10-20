@@ -1,0 +1,160 @@
+body {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+
+    font-family: 'Inconsolata', monospace;
+    color:snow;
+    text-align:center;
+}
+
+hr {
+	border-color:snow;
+	border-style:solid;
+	margin-top:2em;
+}
+
+h2 {
+	margin-top:18px;
+}
+
+/*helps dragon tail cursor
+#gameCanvas {
+	cursor:none;
+}*/
+
+#menu {
+	position:absolute;
+	right:0px;
+	top:0px;
+
+	height:100%;
+
+	padding-left:10px;
+	padding-right:10px;
+
+	background-color:dimgray;
+
+	overflow:hidden;
+}
+#menu h1 {
+	font-size:3em;
+	margin-bottom:0px;
+}
+#menu .submenuOption {
+	color:dimgray;
+	background-color:snow;
+
+	width:200px;
+	height:39px;
+
+	font-size:1.5em;
+
+	margin:auto;
+	margin-top:30px;
+	padding-top:11px;
+	display:block;
+}
+#menu .submenuOption:hover {
+	color:snow;
+	background-color:red;
+}   
+#menu #backButton {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+
+	width:250px;
+	height:auto;
+
+	padding-top:8px;
+	padding-bottom:10px;
+
+	background-color:snow;
+	color:dimgray;
+
+	font-size:1.5em;
+}
+#menu #backButton:hover {
+	color:snow;
+	background-color:red;
+}
+#menu .upgradeName {
+	float:left;
+	clear:right;
+
+	font-size:1.1em;
+
+	margin-top:1.5em;
+	margin-bottom:0.2em;
+}
+#menu .upgradePurchase {
+	float:right;
+	background-color:snow;
+	color:dimgray;
+
+	margin-top:1em;
+	padding-top:0.25em;
+	padding-bottom:0.25em;
+	margin-bottom:0em;
+
+	font-size:1.2em;
+
+	width:95px;
+	height:auto;
+}
+#menu .upgradePurchase:hover {
+	color:snow;
+	background-color:red;
+}
+#menu .infoLeft {
+	text-align:left;
+	float:left;
+	clear:left;
+
+	font-size:0.7em;
+
+	margin-top:0em;
+	margin-bottom:0em;
+}
+#menu .infoRight {
+	text-align:right;
+	float:right;
+	clear:right;
+
+	font-size:0.7em;
+
+	margin-top:0em;
+	margin-bottom:0em;
+}
+#menu #clearSave {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+
+	width:250px;
+	height:auto;
+
+	padding-top:8px;
+	padding-bottom:10px;
+
+	background-color:snow;
+	color:dimgray;
+
+	font-size:1.5em;
+}
+#menu #clearSave:hover {
+	color:snow;
+	background-color:red;
+}
+
+#battleButton {
+	position:absolute;
+	bottom:40px;
+	left:-150px;
+
+	width:150px;
+	height:60px;
+
+	background-color:red;
+}
